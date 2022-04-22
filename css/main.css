@@ -1,0 +1,111 @@
+@font-face {
+  font-family: kia-signature-font-bold;
+  src: url(../fonts/kia-signature-font-bold.otf);
+}
+
+@font-face {
+  font-family: kia-signature-font-regular;
+  src: url(../fonts/kia-signature-font-regular.otf);
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.title {
+  font-size: 48px;
+  font-family: kia-signature-font-bold;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  color: white;
+  font-family: kia-signature-font-regular;
+  font-size: 27px;
+  text-transform: uppercase;
+}
+
+.background-main {
+  background: url(../images/image-main.jpg);
+  height: 730px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 40px;
+}
+
+.logo {
+  max-width: 350px;
+  display: block;
+  margin: 0 auto 0;
+  padding: 15px;
+}
+
+.gray {
+  padding: 5px;
+}
+
+/*.top-bar {
+  height: 35px;
+  width: 100%;
+}*/
+
+.top {
+  display: flex;
+  justify-content: center;
+  color: white;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #05141F;
+  padding: 3px;
+}
+
+.left {
+  width: 25%;
+}
+
+.nav {
+  width: 75%;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: end;
+  color: #C7C8CA;
+  font-family: 'kia-signature-font-bold';
+}
+
+li {
+  margin: 0 15px 0;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: 26px;
+  }
+}
